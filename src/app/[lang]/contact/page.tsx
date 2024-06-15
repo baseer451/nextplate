@@ -10,6 +10,8 @@ import PageHeader from "@/partials/PageHeader";
 import SeoMeta from "@/partials/SeoMeta";
 import { RegularPage } from "@/types";
 import path from "path";
+import dynamic from "next/dynamic";
+
 
 const Contact = async ({ params }: { params: { lang: string } }) => {
   const language = getLanguageObj(params.lang);
@@ -85,6 +87,7 @@ const Contact = async ({ params }: { params: { lang: string } }) => {
   );
 };
 
+
 export default Contact;
 
 // remove dynamicParams
@@ -96,3 +99,7 @@ export async function generateStaticParams() {
     lang: language.languageCode,
   }));
 }
+
+
+
+

@@ -9,44 +9,24 @@
       "url": "/about"
     },
     {
-      "name": "Elements",
+      "name": "Gallery",
       "url": "/elements"
     },
     {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Contact",
-          "url": "/contact"
-        },
-        {
-          "name": "Blog",
-          "url": "/blog"
-        },
-        {
-          "name": "Authors",
-          "url": "/authors"
-        },
-        {
-          "name": "Categories",
-          "url": "/categories"
-        },
-        {
-          "name": "Tags",
-          "url": "/tags"
-        },
-        {
-          "name": "404 Page",
-          "url": "/404"
-        }
-      ]
-    }
-  ],
-  "footer": [
+      "name": "FAQ",
+      "url": "/authors"},
     {
-      "name": "Elements",
+      "name": "Blog",
+      "url": "/blog"},
+
+    {
+      "name": "Contact",
+      "url": "/contacts"}
+
+  ],
+    "footer": [
+    {
+      "name": "Gallery",
       "url": "/elements"
     },
     {

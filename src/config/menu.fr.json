@@ -13,35 +13,17 @@
       "url": "/elements"
     },
     {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Contact",
-          "url": "/contact"
-        },
-        {
-          "name": "Blog",
-          "url": "/blog"
-        },
-        {
-          "name": "Auteures",
-          "url": "/authors"
-        },
-        {
-          "name": "Catégories",
-          "url": "/categories"
-        },
-        {
-          "name": "Mots-clés",
-          "url": "/tags"
-        },
-        {
-          "name": "Page 404",
-          "url": "/404"
-        }
-      ]
+      "name": "Auteures",
+      "url": "/authors"
+      
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
     }
   ],
   "footer": [

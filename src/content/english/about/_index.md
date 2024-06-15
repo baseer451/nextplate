@@ -1,9 +1,10 @@
 ---
-title: "Hey, I am John Doe!"
+title: "Hey, We are NEXIQE!"
 meta_title: "About"
-description: "this is meta description"
+description: "Affordable Living Solutions"
 image: "/images/avatar.png"
 draft: false
 ---
+Expanders was born from a vision to combat soaring house prices, offering a living solution that’s both accessible and uncompromising on quality.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+As house prices climbed, we saw a need for a solution that didn't just promise affordability but also delivered on convenience, quality, and style. Expander Tiny Homes are that solution.

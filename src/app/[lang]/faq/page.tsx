@@ -1,3 +1,7 @@
+
+
+
+
 import AuthorCard from "@/components/AuthorCard";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { getListPage, getSinglePage } from "@/lib/contentParser";
@@ -6,16 +10,20 @@ import PageHeader from "@/partials/PageHeader";
 import SeoMeta from "@/partials/SeoMeta";
 import { Author } from "@/types";
 import path from "path";
+import QA from "@/components/QA";
+import FAQ from "@/components/FAQ";
 
-const Authors = ({ params }: { params: { lang: string } }) => {
+const faq = ({ params }: { params: { lang: string } }) => {
   const language = getLanguageObj(params.lang);
   const authorIndex: Author = getListPage(
-    path.join(language.contentDir, "authors/_index.md"),
+    path.join(language.contentDir, "faq/_index.md"),
   );
   const authors: Author[] = getSinglePage(
-    path.join(language.contentDir, "authors"),
+    path.join(language.contentDir, "faq"),
   );
   const { title, meta_title, description, image } = authorIndex.frontmatter;
+  
+
   return (
     <>
       <SeoMeta
@@ -24,15 +32,15 @@ const Authors = ({ params }: { params: { lang: string } }) => {
         description={description}
         image={image}
       />
-      <PageHeader title={title}>
-        <Breadcrumbs lang={params.lang} />
-      </PageHeader>
+      
+      <FAQ/>
       <section className="section-sm pb-0">
         <div className="container">
           <div className="row justify-center">
             {authors.map((author: Author, index: number) => (
               <div className="mb-14 md:col-6 lg:col-4" key={index}>
                 <AuthorCard data={author} lang={params.lang} />
+                
               </div>
             ))}
           </div>
@@ -42,7 +50,7 @@ const Authors = ({ params }: { params: { lang: string } }) => {
   );
 };
 
-export default Authors;
+export default faq;
 
 // remove dynamicParams
 export const dynamicParams = false;

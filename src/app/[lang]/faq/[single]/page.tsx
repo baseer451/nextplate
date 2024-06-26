@@ -9,6 +9,7 @@ import { slugify } from "@/lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";
 import { Author, Post } from "@/types";
 import path from "path";
+import FAQ from "@/components/FAQ";
 
 const AuthorSingle = ({
   params,
@@ -17,7 +18,7 @@ const AuthorSingle = ({
 }) => {
   const language = getLanguageObj(params.lang);
   const authors: Author[] = getSinglePage(
-    path.join(language.contentDir, "authors"),
+    path.join(language.contentDir, "faq"),
   );
   const author = authors.filter((page) => page.slug === params.single)[0];
   const { frontmatter, content } = author;
@@ -38,6 +39,7 @@ const AuthorSingle = ({
         description={description}
         image={image}
       />
+      <FAQ/>
       <section className="section-sm pb-0">
         <div className="container">
           <div className="row justify-center border-b border-border pb-14 dark:border-darkmode-border">
@@ -58,6 +60,7 @@ const AuthorSingle = ({
               <Social source={social} className="social-icons" />
             </div>
           </div>
+          
 
           <div className="row justify-center pb-16 pt-14">
             {postFilterByAuthor.map((post, index: number) => (
@@ -84,7 +87,7 @@ export const generateStaticParams: () => {
 }[] = () => {
   const slugs = getActiveLanguages().map((language) => {
     const authors: Author[] = getSinglePage(
-      path.join(language.contentDir, "authors"),
+      path.join(language.contentDir, "faq"),
     );
     return authors.map(({ slug }) => ({
       single: slug,

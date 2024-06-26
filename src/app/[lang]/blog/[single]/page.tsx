@@ -132,7 +132,7 @@ const PostSingle = async ({
                   />
                 </div>
               </div>
-              <Disqus className="mt-20" />
+             
             </article>
           </div>
 

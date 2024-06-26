@@ -7,9 +7,9 @@
     "favicon": "/images/logo1.png",
     "logo": "/images/logo1.png",
     "logo_darkmode": "/images/logo2.png",
-    "logo_width": "200",
-    "logo_height": "125",
-    "logo_text": "Nextplate"
+    "logo_width": "100",
+    "logo_height": "63",
+    "logo_text": "Nexiqe"
   },
 
   "settings": {
@@ -26,14 +26,14 @@
   },
 
   "params": {
-    "contact_form_action": "#",
+    
     "copyright": "Designed And Developed by [8M Studio](https://www.youtube.com)"
   },
 
   "navigation_button": {
     "enable": true,
     "label": "Get Quote",
-    "link": "https://www.youtube.com"
+    "link": "/contact"
   },
 
   "disqus": {
@@ -44,7 +44,7 @@
 
   "metadata": {
     "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "Next Boilerplate"
+    "meta_image": "/images/image1.png",
+    "meta_description": "Nexiqe"
   }
 }

@@ -6,6 +6,7 @@ import PageHeader from "@/partials/PageHeader";
 import SeoMeta from "@/partials/SeoMeta";
 import { RegularPage } from "@/types";
 import path from "path";
+import Carousel from '@/components/carousel';
 
 // remove dynamicParams
 export const dynamicParams = false;
@@ -35,6 +36,20 @@ const RegularPages = ({
   )[0];
   const { frontmatter, content } = data;
   const { title, meta_title, description, image } = frontmatter;
+  const DATA = [
+    { image: '/images/image1.png' },
+    { image: '/images/image2.png' },
+    { image: '/images/image3.png' },
+    { image: '/images/image4.png' },
+    { image: '/images/image5.png' },
+    { image: '/images/image6.png' },
+    { image: '/images/image7.png' },
+    { image: '/images/image8.png' },
+    { image: '/images/image9.png' },
+    { image: '/images/image10.png' },
+    { image: '/images/image11.png' },
+    { image: '/images/image12.png' },
+  ]
 
   return (
     <>
@@ -45,9 +60,14 @@ const RegularPages = ({
         image={image}
       />
       <PageHeader title={title}>
-        <Breadcrumbs lang={params.lang} />
       </PageHeader>
+      
+      
       <section className="section">
+        
+        <main className="col12 flex max-h-screen flex-col items-center justify-center text-center">
+        <Carousel data= {DATA}   />
+        </main>
         <div className="container">
           <div className="content">
             <MDXContent content={content} />

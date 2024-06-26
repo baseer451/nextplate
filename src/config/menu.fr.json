@@ -9,12 +9,12 @@
       "url": "/about"
     },
     {
-      "name": "éléments",
+      "name": "Galerie",
       "url": "/elements"
     },
     {
-      "name": "Auteures",
-      "url": "/authors"
+      "name": "FAQ",
+      "url": "/faq"
       
     },
     {
@@ -28,7 +28,7 @@
   ],
   "footer": [
     {
-      "name": "Éléments",
+      "name": "Galerie",
       "url": "/elements"
     },
     {

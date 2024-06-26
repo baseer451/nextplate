@@ -14,14 +14,14 @@
     },
     {
       "name": "FAQ",
-      "url": "/authors"},
+      "url": "/faq"},
     {
       "name": "Blog",
       "url": "/blog"},
 
     {
       "name": "Contact",
-      "url": "/contacts"}
+      "url": "/contact"}
 
   ],
     "footer": [

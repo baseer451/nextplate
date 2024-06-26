@@ -23,7 +23,7 @@ features:
       - "**Open-source and free** for personal and commercial use"
     button:
       enable: true
-      label: "Home"
+      label: "Get Quote"
       link: "#"
 
   - title: "Discover the Key Features Of Next"

@@ -68,12 +68,7 @@ const Posts = ({ params }: { params: { page: number; lang: string } }) => {
               />
             </div>
 
-            <PostSidebar
-              categories={categories}
-              tags={tags}
-              allCategories={allCategories}
-              lang={params.lang}
-            />
+           
           </div>
         </div>
       </section>

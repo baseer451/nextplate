@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Get Quote"
-    link: "https://www.youtube.com"
+    link: "/contact"
 
 # Features
 features:
@@ -36,7 +36,7 @@ features:
     button:
       enable: true
       label: "Get Quote"
-      link: "https://github.com"
+      link: "/contact"
 
   - title: "The Top Reasons to Choose Next for Your Next Project"
     image: "/images/image7.png"
@@ -49,5 +49,5 @@ features:
     button:
       enable: true
       label: "Get Quote"
-      link: "https://github.com"
+      link: "/contact"
 ---

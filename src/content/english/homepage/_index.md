@@ -11,41 +11,46 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Nextplate"
+  - title: "Enhancing Living Space with a Smarter Approach"
     image: "/images/image8.png"
-    content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
+    content: "Nexiqe is an Australian company transforming the landscape of affordable living worldwide. As a pioneering provider of portable tiny homes, we offer innovative and cost-effective housing solutions for everyone."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Next and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+     - "Customizable designs tailored to individual preferences"
+     - "Environmentally sustainable materials and construction practices"
+     - "Flexible financing options to suit diverse budgets"
+     - "Comprehensive after-sales support and maintenance services"
+     - "Global shipping capabilities for international customers"
     button:
       enable: true
       label: "Get Quote"
       link: "#"
 
-  - title: "Discover the Key Features Of Next"
+  - title: "Key Benefits Of Nexiqe Home"
     image: "/images/image9.png"
-    content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "Nexiqe homes are highly affordable, costing significantly less than comparable prefabricated houses per square meter. They offer a versatile range of cabins and tiny homes from 13m² to 72m², suitable for various living space needs. These homes are adaptable, available in open or multi-bedroom floor plans, making them perfect for offices, extra living areas, granny flats, or small businesses."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+    - "Innovative Design and Functionality"
+    - "Cost-Effective and Affordable Solutions"
+    - "Customizable Options to Suit Individual Needs"
+    - "Environmentally Sustainable Construction Practices"
+    - "Global Accessibility and Shipping Capabilities"
+
+      
     button:
       enable: true
       label: "Get Quote"
       link: "/contact"
 
-  - title: "The Top Reasons to Choose Next for Your Next Project"
+  - title: "Why choose Nexiqe "
     image: "/images/image7.png"
-    content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "Choosing Nexiqe means opting for affordability without compromising quality. Our homes arrive 95% complete, saving you time and hassle with pre-plumbing, pre-wiring, and fully equipped bathrooms and kitchens. Whether you're looking for a versatile living space or an income-generating opportunity like a granny flat or Airbnb rental, Nexiqe offers customizable options from 13m² to 72m². With a commitment to sustainable practices and global accessibility, Nexiqe delivers practical and eco-friendly housing solutions tailored to modern living needs."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Next a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Exceptional affordability paired with uncompromised quality"
+      - "Ready for occupancy with 95% completion upon delivery"
+      - "Comprehensive features including pre-plumbing and pre-wiring"
+      - "Complete with fully furnished bathrooms and kitchens"
+      - "Flexible designs spanning 13m² to 72m²"
+      - "Perfect for personal use or as a lucrative investment"
     button:
       enable: true
       label: "Get Quote"

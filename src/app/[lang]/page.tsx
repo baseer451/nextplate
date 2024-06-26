@@ -142,8 +142,7 @@ const Home = ({ params }: { params: { lang: string } }) => {
         </section>
       ))}
 
-      <Testimonials data={testimonial} />
-      <CallToAction data={callToAction} />
+      
     </>
   );
 };

@@ -1,5 +1,5 @@
 ---
-title: "Hé, je suis Nexiqe !"
+title: "Bonjour, nous sommes NEXIQE !"
 meta_title: "About"
 description: "this is meta description"
 image: "/images/avatar.png"

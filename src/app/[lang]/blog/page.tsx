@@ -51,7 +51,7 @@ const Posts = ({ params }: { params: { lang: string } }) => {
       <section className="section">
         <div className="container">
           <div className="row gx-5">
-            <div className="lg:col-8">
+            <div className="lg:col-12">
               <div className="row">
                 {currentPosts.map((post: any, index: number) => (
                   <div key={index} className="mb-14 md:col-6">

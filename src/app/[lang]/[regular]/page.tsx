@@ -36,20 +36,7 @@ const RegularPages = ({
   )[0];
   const { frontmatter, content } = data;
   const { title, meta_title, description, image } = frontmatter;
-  const DATA = [
-    { image: '/images/image1.png' },
-    { image: '/images/image2.png' },
-    { image: '/images/image3.png' },
-    { image: '/images/image4.png' },
-    { image: '/images/image5.png' },
-    { image: '/images/image6.png' },
-    { image: '/images/image7.png' },
-    { image: '/images/image8.png' },
-    { image: '/images/image9.png' },
-    { image: '/images/image10.png' },
-    { image: '/images/image11.png' },
-    { image: '/images/image12.png' },
-  ]
+  
 
   return (
     <>
@@ -65,14 +52,20 @@ const RegularPages = ({
       
       <section className="section">
         
-        <main className="col12 flex max-h-screen flex-col items-center justify-center text-center">
-        <Carousel data= {DATA}   />
+        <main className="bg-gradient-to-r 
+               from-[#f6f6f6] 
+               to-[#f6f6f6] 
+               dark:from-[#1c1c1c] 
+               dark:to-[#1a1a1a] 
+               w-full min-h-screen 
+               mx-auto grid place-items-center">
+        <Carousel/>
         </main>
-        <div className="container">
-          <div className="content">
-            <MDXContent content={content} />
-          </div>
-        </div>
+            <div className="container">
+              <div className="content">
+                <MDXContent content={content} />
+              </div>
+            </div>
       </section>
     </>
   );

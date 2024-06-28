@@ -1,78 +1,64 @@
+"use client";
 
-'use client'
-import Image from 'next/image'
-import React, { useEffect, useRef, useState } from 'react'
+import Image from "next/image";
+import { useEffect, useState } from "react";
 
-const Carousel = ({
-  data,
-}: {
-  data: {
-    image: string
-  }[]
-}) => {
-  // State and Ref initialization
-  const [currentImg, setCurrentImg] = useState(0)
-  const [carouselSize, setCarouselSize] = useState({ width: 0, height: 0 })
-  const carouselRef = useRef(null)
+import { images } from "./constants";
+import Description from "./Description";
 
-  // useEffect to get the initial carousel size
+const Slider = () => {
+  const [activeImage, setActiveImage] = useState(0);
+
+  const clickNext = () => {
+    activeImage === images.length - 1
+      ? setActiveImage(0)
+      : setActiveImage(activeImage + 1);
+  };
+  const clickPrev = () => {
+    activeImage === 0
+      ? setActiveImage(images.length - 1)
+      : setActiveImage(activeImage - 1);
+  };
+
   useEffect(() => {
-    let elem = carouselRef.current as unknown as HTMLDivElement
-    let { width, height } = elem.getBoundingClientRect()
-    if (carouselRef.current) {
-      setCarouselSize({
-        width,
-        height,
-      })
-    }
-  }, [])
-
+    const timer = setTimeout(() => {
+      clickNext();
+    }, 5000);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [activeImage]);
   return (
-    <div>
-      {/* Carousel container */}
-      <div className="relative h-60 w-80 overflow-hidden rounded-md">
-        
-        {/* Image container */}
-        <div
-          ref={carouselRef}
-          style={{
-            left: -currentImg * carouselSize.width,
-          }}
-          className="absolute flex h-full w-full transition-all duration-300"
-        >
-          {/* Map through data to render images */}
-          {data.map((v, i) => (
-            <div key={i} className="relative h-full w-full shrink-0">
-              <Image
-                className="pointer-events-none"
-                src={v.image}
-                alt={`carousel-image-${i}`}
-                fill={true}
-                />
-            </div>
-          ))}
-        </div>
+    <main className="grid place-items-center md:grid-cols-2 grid-cols-1 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl">
+      <div
+        className={`w-full flex justify-center items-center gap-4 transition-transform ease-in-out duration-500 md:rounded-2xl p-6 md:p-0`}
+      >
+        {images.map((elem, idx) => (
+          <div
+            key={idx}
+            className={`${
+              idx === activeImage
+                ? "block w-full h-[80vh] object-cover transition-all duration-500 ease-in-out"
+                : "hidden"
+            }`}
+          >
+            <Image
+              src={elem.src}
+              alt=""
+              width={800}
+              height={400}
+              className="w-full h-full object-cover md:rounded-tl-3xl md:rounded-bl-3xl"
+            />
+          </div>
+        ))}
       </div>
+      <Description
+        activeImage={activeImage}
+        clickNext={clickNext}
+        clickPrev={clickPrev}
+      />
+    </main>
+  );
+};
 
-      {/* Navigation buttons */}
-      <div className="mt-3 flex justify-center">
-        <button
-          disabled={currentImg === 0}
-          onClick={() => setCurrentImg((prev) => prev - 1)}
-          className={`border px-4 py-2 font-bold ${currentImg === 0 && 'opacity-50'}`}
-        >
-          {'<'}
-        </button>
-        <button
-          disabled={currentImg === data.length - 1}
-          onClick={() => setCurrentImg((prev) => prev + 1)}
-          className={`border px-4 py-2 font-bold ${currentImg === data.length - 1 && 'opacity-50'}`}
-        >
-          {'>'}
-        </button>
-      </div>
-    </div>
-  )
-}
-
-export default Carousel
+export default Slider;

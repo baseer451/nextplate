@@ -82,6 +82,7 @@ module.exports = {
       fontFamily: {
         primary: [fontPrimary, fontPrimaryType],
         secondary: [fontSecondary, fontSecondaryType],
+        'sans': ['Roboto', 'sans-serif'],
       },
     },
   },

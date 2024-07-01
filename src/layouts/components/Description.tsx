@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { images } from "./constants";
-import left from "/Users/basee/Desktop/webiste1/nextplate/public/images/left.svg";
-import right from "/Users/basee/Desktop/webiste1/nextplate/public/images/right.svg"
+import left from "./left.svg";
+import right from "./right.svg"
 import { motion } from "framer-motion";
 
 type Props = {

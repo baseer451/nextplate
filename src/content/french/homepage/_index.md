@@ -1,53 +1,56 @@
 ---
-# Banner
+# Bannière
 banner:
-  title: "Le modèle de démarrage ultime dont vous avez besoin pour démarrer votre prochain projet"
-  content: "Nextplate est un modèle de démarrage gratuit construit avec Next et TailwindCSS, fournissant tout ce dont vous avez besoin pour démarrer votre projet Next et gagner un temps précieux."
-  image: "/images/banner.png"
+  title: "Maisons Tiny Portables"
+  content: "Nexiqe est une entreprise australienne qui redéfinit le paysage du logement abordable à l'échelle mondiale. Nous sommes désormais un leader dans la fourniture de maisons tiny portables, offrant des solutions de logement innovantes et économiques pour tous."
+  image: "/images/image10.png"
   button:
     enable: true
-    label: "Commencez gratuitement"
-    link: "https://github.com/zeon-studio/nextplate"
+    label: "Obtenir un devis"
+    link: "/contact"
 
-# Features
+# Caractéristiques
 features:
-  - title: "Ce qui est inclus dans Nextplate"
-    image: "/images/service-1.png"
-    content: "Nextplate est un modèle de démarrage complet qui comprend tout ce dont vous avez besoin pour démarrer votre projet Next. Ce qui est inclus dans Nextplate"
+  - title: "Amélioration de l'espace de vie avec une approche plus intelligente"
+    image: "/images/image8.png"
+    content: "Nexiqe est une entreprise australienne qui transforme le paysage du logement abordable à l'échelle mondiale. En tant que pionnier dans la fourniture de maisons tiny portables, nous offrons des solutions de logement innovantes et économiques pour tous."
     bulletpoints:
-      - "10+ pages pré-construites"
-      - "95+ Score de vitesse de page Google"
-      - "Construisez avec Next et TailwindCSS pour un style simple et personnalisable"
-      - "Entièrement réactif sur tous les appareils"
-      - "Optimisé pour le référencement pour un meilleur classement dans les moteurs de recherche"
-      - "**Open-source et gratuit** pour un usage personnel et commercial"
-    button:
-      enable: false
-      label: "Commencez maintenant"
-      link: "#"
-
-  - title: "Discover the Key Features Of Next"
-    image: "/images/service-2.png"
-    content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Conceptions personnalisables adaptées aux préférences individuelles"
+      - "Matériaux et pratiques de construction respectueux de l'environnement"
+      - "Options de financement flexibles pour répondre à divers budgets"
+      - "Support complet après-vente et services de maintenance"
+      - "Capacités d'expédition mondiale pour les clients internationaux"
     button:
       enable: true
-      label: "Commencez maintenant"
-      link: "https://github.com/zeon-studio/nextplate"
+      label: "Obtenir un devis"
+      link: "#"
 
-  - title: "Les principales raisons de choisir Next pour votre prochain projet"
-    image: "/images/service-3.png"
-    content: "Avec Next, vous pouvez créer des sites Web modernes et axés sur le contenu sans sacrifier les performances ou la facilité d'utilisation."
+  - title: "Avantages clés des maisons Nexiqe"
+    image: "/images/image9.png"
+    content: "Les maisons Nexiqe sont très abordables, coûtant significativement moins cher que les maisons préfabriquées comparables par mètre carré. Elles offrent une gamme polyvalente de cabines et de maisons tiny de 36m² à 74m², adaptées à divers besoins d'espace de vie. Ces maisons sont adaptables, disponibles dans des plans d'étage ouverts ou à plusieurs chambres, ce qui les rend parfaites pour les bureaux, les zones de vie supplémentaires, les logements pour les grands-parents ou les petites entreprises."
     bulletpoints:
-      - "Chargez instantanément des sites statiques pour une meilleure expérience utilisateur et un meilleur référencement."
-      - "La syntaxe intuitive et la prise en charge des frameworks populaires facilitent l'apprentissage et l'utilisation de Next."
-      - "Utilisez n’importe quelle bibliothèque ou framework front-end, ou créez des composants personnalisés, pour n’importe quelle taille de projet."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Conception et fonctionnalité innovantes"
+      - "Solutions économiques et abordables"
+      - "Options personnalisables pour répondre aux besoins individuels"
+      - "Pratiques de construction écologiques"
+      - "Accessibilité mondiale et capacités d'expédition"
     button:
-      enable: false
-      label: ""
-      link: ""
+      enable: true
+      label: "Obtenir un devis"
+      link: "/contact"
+
+  - title: "Pourquoi choisir Nexiqe"
+    image: "/images/image7.png"
+    content: "Choisir Nexiqe signifie opter pour l'abordabilité sans compromettre la qualité. Nos maisons arrivent prêtes à 95%, ce qui vous fait gagner du temps et vous épargne les tracas avec la pré-plomberie, la pré-câblage, et des salles de bains et cuisines entièrement équipées. Que vous recherchiez un espace de vie polyvalent ou une opportunité de revenu comme un logement pour les grands-parents ou une location Airbnb, Nexiqe propose des options personnalisables de 36m² à 74m². Avec un engagement envers les pratiques durables et l'accessibilité mondiale, Nexiqe offre des solutions de logement pratiques et écologiques adaptées aux besoins de vie modernes."
+    bulletpoints:
+      - "Abordabilité exceptionnelle associée à une qualité sans compromis"
+      - "Prêt à l'occupation avec 95% de complétion à la livraison"
+      - "Fonctionnalités complètes comprenant pré-plomberie et pré-câblage"
+      - "Complet avec salles de bains et cuisines entièrement meublées"
+      - "Conceptions flexibles allant de 36m² à 74m²"
+      - "Parfait pour un usage personnel ou comme investissement lucratif"
+    button:
+      enable: true
+      label: "Obtenir un devis"
+      link: "/contact"
 ---

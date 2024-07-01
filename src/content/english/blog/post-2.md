@@ -5,7 +5,7 @@ description: "this is meta description"
 date: 2024-05-24T05:00:00Z
 image: "/images/image11.png"
 categories: ["Technology", "Data"]
-author: "Sam Wilson"
+author: "Daniel Harris"
 tags: ["technology", "tailwind"]
 draft: false
 ---

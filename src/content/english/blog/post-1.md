@@ -5,7 +5,7 @@ description: "this is meta description"
 date: 2024-06-14T05:00:00Z
 image: "/images/image7.png"
 categories: ["Application", "Data"]
-author: "John Wilson"
+author: "Mei Chen"
 tags: ["nextjs", "tailwind"]
 draft: false
 ---

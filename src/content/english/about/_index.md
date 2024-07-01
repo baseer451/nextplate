@@ -2,7 +2,7 @@
 title: "Hey, We are NEXIQE!"
 meta_title: "About"
 description: "Affordable Living Solutions"
-image: "/images/profile2.png"
+image: "/images/profile1.png"
 draft: false
 ---
 Nexiqe Portables was born from a vision to combat soaring house prices, offering a living solution that’s both accessible and uncompromising on quality.

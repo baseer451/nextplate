@@ -56,7 +56,7 @@ const Contacts = async ({ params }: { params: { lang: string } }) => {
                                 data-original="#000000"></path>
                         </svg>
                         <a href="javascript:void(0)" className="text-current text-sm ml-3 bold">
-                            +61-435-744-923
+                            +61-410-044-309
                         </a>
                     </li>
                 </ul>

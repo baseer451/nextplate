@@ -66,8 +66,9 @@ const Contact: FC = () => {
         >
           <option value="">Select a product</option>
           <option value="The Studio">The Studio</option>
-          <option value="20FT Preminiuim">20FT Premiuim</option>
-          <option value="40FT Preminium">40FT Premiuim 3</option>
+          <option value="36m² Premium">36m² Premium</option>
+          <option value="74m² Premium">74m² Premium</option>
+          <option value="Portable toilet">Portable toilet</option>
         </select>
         {errors.product && <span className="text-red-500 text-sm">{errors.product.message}</span>}
       </div>

@@ -1,6 +1,6 @@
 ---
-title: Sam Wilson
-email: samwilson@email.com
+title: Mei Chen
+email: MeiChen@Nexiqe.com
 image: "/images/profile2.png"
 description: this is meta description
 social:
@@ -17,4 +17,4 @@ social:
     link: https://linkedin.com
 ---
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.
+Mei Chen brings a wealth of experience in strategic marketing and brand management within the portable housing industry to her role at Nexiqe Portable Houses. With a strong focus on enhancing brand visibility and market presence, Mei spearheads marketing initiatives aimed at showcasing Nexiqe's innovative portable housing solutions. Her expertise in digital marketing strategies, coupled with a deep understanding of market research and customer engagement, ensures that Nexiqe effectively reaches and resonates with a diverse audience. Mei Chen is committed to driving growth and promoting Nexiqe as a leader in sustainable and customizable housing solutions across Australia.

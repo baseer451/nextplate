@@ -58,7 +58,7 @@ If you have any questions about this Privacy Policy, please contact us at:
 
 Nexiqe Portable Houses  
 [Address]  
-Email: [Email Address]  
-Phone: [Phone Number]
+Email: info@nexiqe.com  
+Phone: +61-410-044-309
 
 By using our Site, you agree to the terms of this Privacy Policy.

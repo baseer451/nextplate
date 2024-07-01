@@ -44,14 +44,14 @@ export const images = [
     {
         id: 1,
         src: "/images/image8.png",
-        title: "40FT PREMIUM",
-        desc: "40ft Premium Nexiqe: an affordable, portable home that redefines spaciousness, unfolding into a 72m² haven with unique 2, 3, or 4-bedroom layouts. Equipped with a full kitchenette, modern bathroom, and options for an office or walk-in wardrobe",
+        title: "74m² PREMIUM",
+        desc: "74m² Premium Nexiqe: an affordable, portable home that redefines spaciousness, unfolding into a 74m² haven with unique 2, 3, or 4-bedroom layouts. Equipped with a full kitchenette, modern bathroom, and options for an office or walk-in wardrobe",
     },
     {
         id: 1,
         src: "/images/image9.png",
         title: "Two Bed",
-        desc: "Discover our new 30ft Premium Nexiqe, a perfect blend of luxury and affordability in a portable container home. Bridging the gap between our 20ft and 40ft models, this new size offers the perfect balance of space and comfort. Ideal for those seeking a spacious yet sophisticated living solution, the 30ft model is an excellent choice for a variety of needs.",
+        desc: "Discover our new 36m² Premium Nexiqe, a perfect blend of luxury and affordability in a portable container home. Bridging the gap between our The studio and 74m² models, this new size offers the perfect balance of space and comfort. Ideal for those seeking a spacious yet sophisticated living solution, the 30ft model is an excellent choice for a variety of needs.",
     },
     {
         id: 1,
